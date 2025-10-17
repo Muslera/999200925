@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <section class="p3">
+
+      <form class="flexcolumn" action="index.html">
+        <label for="nombre">Nombre Completo</label>
+        <input class="m10" type="text" id="nombre" name="nombre" required />
+        
+        <label for="email">Correo electrónico</label>
+        <input class="m10" type="email" name="email" id="email" required />
+        
+        <label for="password">Contraseña</label>
+        <input
+        class="m10" 
+        type="password"
+        name="password"
+        id="password"
+        minlength="8"
+        required
+        />
+        
+        <label for="fechanac">Fecha de nacimiento</label>
+        <input class="m10" type="date" name="fechanac" id="fechanac" />
+        
+        <label for="pais">País</label>
+        <select class="m10" name="pais" id="pais">
+        <option value="Argentina">Argentina</option>
+        <option value="Uruguay">Uruguay</option>
+        <option value="Chile">Chile</option>
+      </select>
+      
+      <div class="flexrow">        
+        <label for="acepta">Aceptación de términos y condiciones</label>
+        <input class="m10" type="checkbox" name="acepta" id="acepta" required />
+      </div>
+      
+      <button class="" type="submit">Enviar</button>
+
+    </form>
+  </section>
+  <section>
+    <div class="p3">
+      <a href="index.html">Acceder al Index</a>
+    </div>
+  </section>
+  </body>
+</html>

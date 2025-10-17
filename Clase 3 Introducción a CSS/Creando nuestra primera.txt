@@ -1,0 +1,47 @@
+Creando nuestra primera mini web
+Objetivo Crear un formulario de registro y un home para una página web utilizando distintas etiquetas de formulario en HTML.
+
+Instrucciones
+
+
+
+Crea dos archivos HTML: index.html y registro.html.
+
+Dentro de registro.html, crea un formulario que incluya los siguientes campos (en el siguiente orden):
+
+Nombre completo (debe ser obligatorio).
+
+Correo electrónico (debe ser obligatorio y validar el formato).
+
+Contraseña (debe ser obligatorio y tener al menos 8 caracteres).
+
+Fecha de nacimiento.
+
+País (selección de una lista desplegable con al menos tres opciones) (casilla obligatoria).
+
+Aceptación de términos y condiciones (casilla obligatoria).
+
+Botón de envío.
+
+
+
+
+Link que al hacerle clic te redireccione a index.html.
+
+Asegurate de que cada campo tenga una etiqueta descriptiva (label) y esté organizado de manera clara (por ahora, es válido usar la etiqueta <br/> para separar los campos).
+
+Dentro de index.html crea un título que diga "Bienvenidos a mi página web!" y un link que te redireccione a registro.html.
+
+Agregá una imagen que te guste (recordá guardarla en una carpeta llamada "images").
+
+Guardá los archivos y abrilos en un navegador para probarlos.
+
+¡Importante!
+
+Seguí buenas prácticas al escribir el código.
+
+Organizá los campos correctamente para mejorar la legibilidad.
+
+El botón de "enviar" debe funcionar SOLO cuando completaron todos los campos obligatorios.
+
+Lo que tienen que ver en el navegador debe ser parecido a esto:

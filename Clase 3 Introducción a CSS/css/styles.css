@@ -1,0 +1,14 @@
+.flexrow {
+  display: flex;
+  flex-direction: row;
+}
+.flexcolumn {
+  display: flex;
+  flex-direction: column;
+}
+.m10 {
+  margin: 10px;
+}
+.p3{
+    padding: 3rem;
+}
