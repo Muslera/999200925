@@ -26,8 +26,15 @@ para agregar a "María" como la primera invitada */
 
 let invitados = ["Ana", "Luis", "Carlos"]
 invitados.unshift("Maria")
-invitados.shift()
 
+/* 4. shift() - Eliminar el Primero
+Objetivo: Eliminar el primer elemento de un array.
+Ejercicio: De la lista de invitados, usa shift() para eliminar y mostrar quién fue el primer
+invitado en irse.
+Pista: shift() no necesita argumentos
+*/
+
+invitados.shift()
 
 /* 5. splice() - Reemplazar en Medio
 Objetivo: Reemplazar un elemento en una posición específica.
@@ -140,7 +147,7 @@ excepción */
 let edades = [22, 18, 30, 25]
 
 let mayor18 = edades.every (item => item >= 18) 
-let mayor = edades.every (function(item) {return item >= 18}) 
+let mayor = edades.every (function(item) {return item > 18}) 
 console.log(mayor)
 
 
